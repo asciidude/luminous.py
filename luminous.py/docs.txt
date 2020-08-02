@@ -1,0 +1,23 @@
+Functions:
+window.zoomscroll(True)                                     - enables zoom scrolling
+window.setbg(r,g,b,a)                                       - sets bg to r, g, b, a (dont use whole values except 1)
+window.createsprite(path,angle,x,y,w,h,opacity)             - creates sprite
+window.createtiltedsquare(0, 0, True)                       - creates a tilted square
+window.playsound("path", 1.0)                               - plays sound at x volume
+window.createtxt(text, font, size, x, y)                    - create text
+window.mouse_move(callback)                                 - returns callback when mouse is moved
+window = createwin("name",w,h,True,callback,icon)           - create window
+window.start()                                              - start window
+
+Extra information:
+- To create a keypress event, do if "keys[key.KEY]:"
+- Import "key" from "pyglet.window" if you're going to
+use key functions
+
+Version:
+1.12 ID
+
+(
+    ID = In Development
+    AR = After Release
+)
